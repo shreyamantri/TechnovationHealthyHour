@@ -1,0 +1,25 @@
+import UIKit
+
+class ViewController: UIViewController {
+    
+    @IBAction func signUpButtonPressed(_ sender: UIButton) {
+        super.performSegue(withIdentifier: "signUpViewSegue", sender: self)
+    }
+    
+    override func viewDidLoad() {
+        
+        super.viewDidLoad()
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+
+
+}
